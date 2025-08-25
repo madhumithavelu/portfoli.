@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.box {
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -350px;
+}
+
+.body {
+    width: 20%;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.headcontainer {
+  padding: 20px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancelicon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.subhead {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subhead>h3{
+    margin-left: 15px;
+}
+.subhead>a{
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.firstcontainer {
+    width: 100%;
+   padding:20px 30px 20px 30px ;
+   display: flex;
+   gap: 15px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+p {
+    font-size: medium;
+}
